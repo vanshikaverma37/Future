@@ -14,7 +14,7 @@ const Field = () => {
   return (
     <>
       <div className="field-navbar flex justify-around items-center text-center bg-transparent h-[50px] cursor-pointer text-black">
-        <div className="field-h flex items-center gap-2 ">
+        <div className=" justify-around text-center ml-[-18rem] flex items-center gap-2 ">
           <div className="back max-[900px]:ml-[10rem]" onClick={handleGoBack}>
             <MdArrowBack />
           </div>
