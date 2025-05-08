@@ -2,8 +2,8 @@ import { useState } from "react";
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Query from "./components/Query";
-import Videos from "./components/videos";
+import Query from "./components/Mentor's-Talk";
+import Ques from "./components/Q&A Hub";
 import FeedBAck from "./components/FeedBack";
 import Field from "./components/Field";
 import Home from "./components/Home";
@@ -36,10 +36,10 @@ function App() {
       ),
     },
     {
-      path: "/Videos",
+      path: "/Ques",
       element: (
         <>
-          <Videos />
+          <Ques />
         </>
       ),
     },

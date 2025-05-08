@@ -32,8 +32,8 @@ const Navbar = () => {
           <NavLink className="" to={"/Field"}>
             Field <span className=""></span>
           </NavLink>
-          <NavLink className="" to={"/Videos"}>
-            Mentor-Video <span className=""></span>
+          <NavLink className="" to={"/Ques"}>
+            Q&A Hub <span className=""></span>
           </NavLink>
           <NavLink className="" to={"/Query"}>
             Query <span className=""></span>
@@ -232,19 +232,15 @@ const Navbar = () => {
                   <li className="hover:text-white">Mentor's Talk</li>
                 </NavLink>
                 <NavLink to={"/Query"}>
-                 
                   <li className="hover:text-white">Ask any Query</li>
                 </NavLink>
                 <NavLink to={"/Field"}>
-                 
                   <li className="hover:text-white">ALL Field</li>
                 </NavLink>
                 <NavLink to={"/Videos"}>
-                 
                   <li className="hover:text-white">Videos of Mentor's</li>
                 </NavLink>
                 <NavLink to={"/FeedBack"}>
-                  
                   <li className="hover:text-white">FeedBack</li>
                 </NavLink>
               </ul>
@@ -264,7 +260,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="contact">
-            <h1 className="text-white mt-[15rem] ml-[77rem]">Take a Step Towards your dream</h1>
+            <h1 className="text-white mt-[15rem] ml-[77rem]">
+              Take a Step Towards your dream
+            </h1>
           </div>
         </div>
       </div>

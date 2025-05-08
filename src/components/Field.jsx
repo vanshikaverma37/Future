@@ -1,5 +1,4 @@
 import React from "react";
-import "./Field.css";
 import { MdArrowBack } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import multimedia from "./multimedia";
