@@ -6,8 +6,8 @@ const multimedia = [
       { title: "PCM", path: "/stream/pcm" },
       { title: "PCB", path: "/stream/pcb" },
       { title: "PCM/B", path: "/stream/Pcmb" },
-      { title: "COMMERCE", path: "/stream/Arts" },
-      { title: "ARTS", path: "/stream/commerece" },
+      { title: "COMMERCE", path: "/stream/commerece" },
+      { title: "ARTS", path: "/stream/arts" },
     ],
   },
   {

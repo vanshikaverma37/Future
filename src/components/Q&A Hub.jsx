@@ -21,7 +21,7 @@ const Videos = () => {
             className="back ml-[-89rem] mt-[20px] fixed"
             onClick={handleGoBack}
           >
-            <MdArrowBack color='white'/>
+            <MdArrowBack color="white" />
           </div>
           <h2 className="text-[50px] mt-[27px] text-white">
             {" "}
@@ -200,6 +200,130 @@ const Videos = () => {
                   genuinely interested in Science or Biology and willing to work
                   hard, speak with school counselors—they may allow you based on
                   an interview or your motivation.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q12:Is 10th board result really important for my future?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span> It's
+                  important but not everything. It helps in getting into good
+                  schools/colleges, but your future depends on continuous
+                  learning and growth, not one exam.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q13:Can I do something different after 10th, like a diploma or
+                  vocational course?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span> Yes, you
+                  can pursue diplomas in fields like design, IT, hotel
+                  management, etc. Vocational courses give you job-ready skills
+                  and early career options.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q14:What if I want to start my own business after 10th or
+                  12th?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span>That’s a
+                  great ambition! Starting your own business after 10th or 12th
+                  is possible, but it requires careful planning, learning, and
+                  patience.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q15: What if I’m confused and don’t know my interest?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span>It’s
+                  normal to feel confused. Start by exploring different
+                  subjects, hobbies, and career videos. You can take career
+                  aptitude tests to understand your strengths. Talk to mentors,
+                  seniors, or professionals to get clarity.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q16:Is it necessary to take Science for a good career?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span> No, not
+                  at all. Commerce and Arts also have high-paying and
+                  respectable careers like CA, Law, Management, UPSC, Designing,
+                  etc. Success depends on your skills, hard work, and passion,
+                  not just the stream.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q17:Can I pursue a career in sports, music, dance, or arts
+                  after 10th?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span> If
+                  you’re passionate about it, you can take professional courses,
+                  join academies, and participate in competitions. But also
+                  focus on academics as a backup.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q18:Can I study abroad after 10th?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span> Yes, but
+                  it’s more common after 12th. Some countries offer diploma and
+                  high school programs post-10th. You’ll need to qualify for
+                  language proficiency tests (IELTS/TOEFL) and meet visa
+                  requirements.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q19:What are the best career options for girls after 10th?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span>Career
+                  options are equal for everyone today! Girls can pursue
+                  Engineering, Medical, CA, UPSC, Digital Marketing, Law,
+                  Designing, Teaching, Coding, Entrepreneurship, etc.
+                </span>
+              </div>
+              <div className="ques">
+                <h1 className="text-[21px] ml-[6rem] mt-[49px]">
+                  Q20: Can I prepare for Defence exams after 10th?
+                </h1>
+              </div>
+              <div className="ans leading-6 font-sans text-[15px]">
+                <span>
+                  <span className="font-bold">🎓 Mentor's Reply:</span> Yes.
+                  After 10th, you can prepare for: Indian Army GD NDA exam
+                  (after 12th PCM) Start early with physical fitness, basic GK,
+                  and Maths. For officer-level entries, completing 12th is
+                  necessary.
                 </span>
               </div>
             </var>
