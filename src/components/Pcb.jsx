@@ -10,9 +10,6 @@ import eleimg from "./images/elextrical.avif";
 import civilimg from "./images/civil.avif";
 import bioreasearch from "./images/bioreasearch.jpg";
 import computerimg from "./images/computer.avif";
-import aggriculture from "./images/aggriculture.jpg";
-import emerging from "./images/emerging.avif";
-
 const Pcb = () => {
   const navigate = useNavigate();
   const handleGoBack = () => {
@@ -56,7 +53,7 @@ Aos.init({ duration: 1000, once: false });
         data-aos-duration="3000"
       >
         <div className="pcmimg">
-          <img src={computerimg} alt="" className="pcm-img" />
+          <img src={biology} alt="" className="pcm-img" />
         </div>
         <div className="cards-detail">
           <h1 className="title text-[30px] text-center font-serif">

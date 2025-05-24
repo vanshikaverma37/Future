@@ -16,6 +16,32 @@ const Navbar = () => {
   useEffect(() => {
     Aos.init({ duration: 1000, once: false });
   }, []);
+
+  useEffect(() => {
+    const addGoogleTranslateScript = () => {
+      const script = document.createElement("script");
+      script.src =
+        "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      script.async = true;
+      document.body.appendChild(script);
+    };
+
+    window.googleTranslateElementInit = () => {
+      new window.google.translate.TranslateElement(
+        {
+          pageLanguage: "en",
+          layout:
+            window.google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+          autoDisplay: false,
+          includedLanguages: "en,hi,fr,de,es,ja,zh,ru,ko,ar,it,pt",
+        },
+        "google_translate_element"
+      );
+    };
+
+    addGoogleTranslateScript();
+  }, []);
+  
   return (
     <>
       <nav className=" main-nav">
@@ -44,6 +70,7 @@ const Navbar = () => {
           <NavLink className="side-icon ">
             <PiDotsThreeOutlineVerticalLight />
           </NavLink>
+          <div id="google_translate_element" className="ml-4"></div>
         </div>
       </nav>
       <section className=" max-[1000px]:hidden">

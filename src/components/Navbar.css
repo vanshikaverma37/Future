@@ -95,4 +95,30 @@ position: fixed;
    left: 0;
    width: 100%;
    top: 85rem;
+}/* Hide the top Google Translate banner */
+.goog-te-banner-frame.skiptranslate {
+   display: none !important;
+}
+
+body {
+   top: 0px !important;
+}
+
+/* Hide branding and logo */
+.goog-logo-link,
+.goog-te-gadget span {
+   display: none !important;
+}
+
+/* Style the dropdown itself */
+#google_translate_element select {
+   background-color: #fff;
+   color: #000;
+   padding: 4px 10px;
+   font-size: 14px;
+   border-radius: 6px;
+   border: 1px solid #ccc;
+   outline: none;
+   cursor: pointer;
+   margin-top: 1rem;
 }
