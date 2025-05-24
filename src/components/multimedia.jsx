@@ -10,25 +10,6 @@ const multimedia = [
       { title: "ARTS", path: "/stream/arts" },
     ],
   },
-  {
-    title: "Government",
-    submenu: [
-      { title: "Civil Services", path: "/stream/Civil" },
-      { title: "Defence" },
-      { title: "Banking" },
-      { title: "Railways" },
-      { title: "Teaching" },
-      { title: "Law" },
-    ],
-  },
-  {
-    title: "Other Option",
-    submenu: [
-      { title: "Entrepreneurship" },
-      { title: "Vocational Courses" },
-      { title: "Freelancing" },
-    ],
-  },
 ];
 
 export default multimedia;
