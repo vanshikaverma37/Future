@@ -8,8 +8,11 @@ import { useEffect } from 'react';
 import pcmimg from "./images/pcm.avif";
 import eleimg from "./images/elextrical.avif";
 import civilimg from "./images/civil.avif";
-import mechanicalimg from "./images/mechanical.avif";
+import bioreasearch from "./images/bioreasearch.jpg";
 import computerimg from "./images/computer.avif";
+import aggriculture from "./images/aggriculture.jpg";
+import emerging from "./images/emerging.avif";
+
 const Pcb = () => {
   const navigate = useNavigate();
   const handleGoBack = () => {
@@ -97,7 +100,7 @@ Aos.init({ duration: 1000, once: false });
         aos_offset="100"
       >
         <div className="pcmimg">
-          <img src={eleimg} alt="" className="pcm-img" />
+          <img src={bioreasearch} alt="" className="pcm-img" />
         </div>
         <div className="cards-detail">
           <h1 className="title text-[30px] text-center font-serif">
@@ -148,7 +151,7 @@ Aos.init({ duration: 1000, once: false });
         data-aos-duration="3000"
       >
         <div className="pcmimg">
-          <img src={mechanicalimg} alt="" className="pcm-img" />
+          <img src={aggriculture} alt="" className="pcm-img" />
         </div>
         <div className="cards-detail">
           <h1 className="title text-[27px] text-center font-serif">
@@ -196,7 +199,7 @@ Aos.init({ duration: 1000, once: false });
         data-aos-duration="6000"
       >
         <div className="pcmimg">
-          <img src={civilimg} alt="" className="pcm-img" />
+          <img src={emerging} alt="" className="pcm-img" />
         </div>
         <div className="cards-detail">
           <h1 className="title text-[30px] text-center font-serif">
