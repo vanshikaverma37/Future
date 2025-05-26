@@ -5,13 +5,13 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import civil from "./images/civil.jpg";
-import banking from "./images/bank.avif";
 import defense from "./images/defense.jpg";
 import law from "./images/law.jpg";
 import miss from "./images/miss.jpg";
 import post from "./images/postoffice.jpg";
 import railway from "./images/railway.jpg";
 import teaching from "./images/teaching.jpg";
+import bank from "./images/bank.avif";
 
 const Government = () => {
   const navigate = useNavigate();
@@ -145,7 +145,7 @@ const Government = () => {
         >
           <div className="Banking w-[30em]">
             <img
-              src={banking}
+              src={bank}
               alt=""
               className="w-[23rem] h-[20rem] ml-[2rem] mt-[55px] rounded-2xl"
             />

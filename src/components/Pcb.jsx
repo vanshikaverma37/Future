@@ -5,11 +5,11 @@ import { MdArrowBack } from "react-icons/md";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
-import pcmimg from "./images/pcm.avif";
-import eleimg from "./images/elextrical.avif";
-import civilimg from "./images/civil.avif";
+import medical from "./images/medical.jpg";
+import aggriculture from "./images/aggriculture.jpg";
 import bioreasearch from "./images/bioreasearch.jpg";
 import computerimg from "./images/computer.avif";
+import emerging from "./images/emerging.avif";
 const Pcb = () => {
   const navigate = useNavigate();
   const handleGoBack = () => {
@@ -28,14 +28,17 @@ Aos.init({ duration: 1000, once: false });
         <div className="pcb-head" data-aos="fade-down-right">
           <h1 className="text-black text-[35px]">WELCOME TO PCB PAGE</h1>
           <span>
-            Diverse Exciting Opportunities in Mediacal Sciences, Biological Sciences and beyond...
+            Diverse Exciting Opportunities in Mediacal Sciences, Biological
+            Sciences and beyond...
           </span>
         </div>
       </div>
       <div className="choice-pcb">
         <h1 className="question">why to choose PCB?</h1>
         <li className="ans">
-          Wide Career Opportunities: – Opens doors to medical, allied health sciences, biological, agriculture, environmental sciences and interdisiplinary fields.
+          Wide Career Opportunities: – Opens doors to medical, allied health
+          sciences, biological, agriculture, environmental sciences and
+          interdisiplinary fields.
         </li>
         <li className="ans">
           Strong Analytical Skills: – Enhances problem-solving, logical
@@ -53,7 +56,7 @@ Aos.init({ duration: 1000, once: false });
         data-aos-duration="3000"
       >
         <div className="pcmimg">
-          <img src={biology} alt="" className="pcm-img" />
+          <img src={medical} alt="" className="pcm-img" />
         </div>
         <div className="cards-detail">
           <h1 className="title text-[30px] text-center font-serif">
@@ -61,26 +64,29 @@ Aos.init({ duration: 1000, once: false });
           </h1>
           <p className="detail -mt-[15px]">
             <li className="text-[16px] ml-[1px]">
-            Focuses on diagnosing, treating, and preventing
-            illnesses to improve patient health and well-being
+              Focuses on diagnosing, treating, and preventing illnesses to
+              improve patient health and well-being
             </li>
             <li className="text-[16px] ml-[1px]">
-            Includes core fields like MBBS, BDS, and BAMS, 
-            as well as allied fields like Physiotherapy,
-            Nursing, Radiology, and Lab Technology.
+              Includes core fields like MBBS, BDS, and BAMS, as well as allied
+              fields like Physiotherapy, Nursing, Radiology, and Lab Technology.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Plays a critical role in public health, emergency
-             care, rehabilitation, and diagnostics.
+              Plays a critical role in public health, emergency care,
+              rehabilitation, and diagnostics.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Emphasizes clinical skills, biomedical knowledge, and 
-            hands-on patient care.
+              Emphasizes clinical skills, biomedical knowledge, and hands-on
+              patient care.
             </li>
           </p>
         </div>
         <div className="card-btn">
-          <Link to={"https://en.wikipedia.org/wiki/Computer_science"}>
+          <Link
+            to={
+              "https://www.telegraphindia.com/edugraph/colleges/ranking/stream-allied-health-sciences/134"
+            }
+          >
             <button
               className="btn border-2 rounded-2xl border-black w-[122px] p-3 -ml-[24rem] cursor-pointer
     mt-[10rem] bg-[#62825D]"
@@ -105,33 +111,29 @@ Aos.init({ duration: 1000, once: false });
           </h1>
           <p className="detail -mt-[15px]">
             <li className="text-[16px] ml-[1px]">
-            Focuses on understanding living organisms, from cells and 
-            genes to ecosystems and evolution.
+              Focuses on understanding living organisms, from cells and genes to
+              ecosystems and evolution.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Combines principles of biology, chemistry, and scientific
-             investigation.
+              Combines principles of biology, chemistry, and scientific
+              investigation.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Plays a vital role in fields like genetics, biotechnology, 
-            microbiology, and ecology.
+              Plays a vital role in fields like genetics, biotechnology,
+              microbiology, and ecology.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Involves conducting experiments, analyzing data, and drawing 
-            conclusions to expand scientific knowledge.
+              Involves conducting experiments, analyzing data, and drawing
+              conclusions to expand scientific knowledge.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Drives innovation in healthcare, agriculture, environmental 
-            conservation, and drug discovery.
-
-
+              Drives innovation in healthcare, agriculture, environmental
+              conservation, and drug discovery.
             </li>
           </p>
         </div>
         <div className="card-btn">
-          <Link
-            to={"https://www.mtu.edu/ece/undergraduate/electrical/what-is/"}
-          >
+          <Link to={"https://www.csir.res.in/Biological-sciences"}>
             <button
               className=" btn border-2 rounded-2xl border-black w-[122px] p-3 -ml-[24rem] cursor-pointer
     mt-[10rem] bg-[#62825D]"
@@ -156,31 +158,28 @@ Aos.init({ duration: 1000, once: false });
           </h1>
           <p className="detail -mt-[15px]">
             <li className="text-[16px] ml-[1px]">
-            Focuses on sustainable farming and environmental conservation.
+              Focuses on sustainable farming and environmental conservation.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Combines biology, ecology, and technology to improve 
-            food production and protect natural resources.
+              Combines biology, ecology, and technology to improve food
+              production and protect natural resources.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Plays a key role in addressing climate change, 
-            biodiversity, and global food security.
+              Plays a key role in addressing climate change, biodiversity, and
+              global food security.
             </li>
             <li className="text-[16px] ml-[1px]">
               Plays a vital role in industries like automotive, aerospace,
               robotics, and manufacturing.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Drives innovation in eco-friendly agriculture and green technologies.
+              Drives innovation in eco-friendly agriculture and green
+              technologies.
             </li>
           </p>
         </div>
         <div className="card-btn">
-          <Link
-            to={
-              "https://www.tandfonline.com/environment-agriculture"
-            }
-          >
+          <Link to={"https://www.tandfonline.com/environment-agriculture"}>
             <button
               className=" btn border-2 rounded-2xl border-black w-[122px] p-3 -ml-[24rem] cursor-pointer
     mt-[10rem] bg-[#62825D]"
@@ -204,28 +203,25 @@ Aos.init({ duration: 1000, once: false });
           </h1>
           <p className="detail -mt-[15px]">
             <li className="text-[16px] ml-[1px]">
-            Focuses on blending biology with other domains like 
-            technology, psychology, and forensic science.
+              Focuses on blending biology with other domains like technology,
+              psychology, and forensic science.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Covers dynamic areas such as biotechnology, genomics, 
-            nutrition, psychology, and forensic science.
+              Covers dynamic areas such as biotechnology, genomics, nutrition,
+              psychology, and forensic science.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Encourages innovation across healthcare, food, crime 
-            investigation, and mental health.
+              Encourages innovation across healthcare, food, crime
+              investigation, and mental health.
             </li>
             <li className="text-[16px] ml-[1px]">
-            Drives new-age careers through research, diagnostics, 
-            data science, and personalized medicine.
+              Drives new-age careers through research, diagnostics, data
+              science, and personalized medicine.
             </li>
-            
           </p>
         </div>
         <div className="card-btn">
-          <Link
-            to={"https://hindustanuniv.ac.in/blogs/what-is-civil-engineering/"}
-          >
+          <Link to={"https://www.ncbi.nlm.nih.gov/books/NBK22616/"}>
             <button
               className=" btn border-2 rounded-2xl border-black w-[122px] p-3 -ml-[24rem] cursor-pointer
     mt-[10rem] bg-[#62825D]"
@@ -235,9 +231,10 @@ Aos.init({ duration: 1000, once: false });
           </Link>
         </div>
       </div>
+
       <div className="another-feild">
         <h1 className="text-[34px]  mt-[36px] font-sans text-center">
-          Other Options 
+          Other Options
         </h1>
         <div className="cards flex justify-around align-middle flex-wrap gap-[5rem]">
           <div
@@ -451,13 +448,12 @@ Aos.init({ duration: 1000, once: false });
           >
             <h1 className="text-center mt-[18px] text-[2rem]">B.A.</h1>
             <p className="other-para">
-            B.A. (Bachelor of Arts) is a three-year undergraduate degree 
-            focused on humanities and social sciences. It includes subjects 
-            like literature, history, sociology, and psychology. The course 
-            helps students develop critical thinking, communication, and 
-            analytical skills for careers in education, media, public service, and more.
-
-
+              B.A. (Bachelor of Arts) is a three-year undergraduate degree
+              focused on humanities and social sciences. It includes subjects
+              like literature, history, sociology, and psychology. The course
+              helps students develop critical thinking, communication, and
+              analytical skills for careers in education, media, public service,
+              and more.
             </p>
             <Link to={"https://www.shiksha.com/b-a-bachelor-of-arts-chp"}>
               <button className=" other-btn border-2 p-[7px] mt-[14rem] ml-[13vh] rounded-2xl cursor-pointer bg-[#62825D]">
@@ -472,13 +468,12 @@ Aos.init({ duration: 1000, once: false });
           >
             <h1 className="text-center mt-[18px] text-[2rem]">B.DES.</h1>
             <p className="other-para">
-            B.Des. (Bachelor of Design) is a four-year undergraduate degree
-             focused on creative fields like fashion, graphic, interior, 
-             product, and communication design. The course develops artistic 
-             skills, innovation, and design thinking. It blends aesthetics 
-             with technology to solve real-world problems and prepares students 
-             for dynamic careers in the design industry.
-
+              B.Des. (Bachelor of Design) is a four-year undergraduate degree
+              focused on creative fields like fashion, graphic, interior,
+              product, and communication design. The course develops artistic
+              skills, innovation, and design thinking. It blends aesthetics with
+              technology to solve real-world problems and prepares students for
+              dynamic careers in the design industry.
             </p>
             <Link to={"https://www.shiksha.com/b-des-bachelor-of-design-chp"}>
               <button className=" other-btn border-2 p-[7px] mt-[14rem] ml-[13vh] rounded-2xl cursor-pointer bg-[#62825D]">
