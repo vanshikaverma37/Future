@@ -11,7 +11,7 @@ import Pcm from "./components/Pcm";
 import Pcb from "./components/Pcb";
 import Arts from "./components/Arts";
 import Pcmb from "./components/PcmB";
-import Civil from "./components/civil";
+import Government from "./components/Government";
 import Commerece from "./components/Commerece";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PcmB from "./components/PcmB";
@@ -100,13 +100,13 @@ function App() {
       ),
     },
     {
-      path: "/stream/Civil",
-      element: (
+      path:"/Government",
+      element:(
         <>
-          <Civil />
+        <Government/>
         </>
-      ),
-    },
+      )
+    }
   ]);
   return  <RouterProvider router={router} />
   

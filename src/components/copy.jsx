@@ -2,38 +2,19 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { MdArrowBack } from "react-icons/md";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import axios from "axios";
 
 const FeedBack = () => {
   const navigate = useNavigate();
   const [rating, setRating] = useState(0);
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [experience, setExperience] = useState("");
 
   const handleGoBack = () => {
     navigate(-1);
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      await axios.post("http://localhost:5000/api/feedback", {
-        name,
-        email,
-        experience,
-        rating,
-      });
-      alert("✅ Feedback submitted! Thank you.");
-      // Clear the form
-      setName("");
-      setEmail("");
-      setExperience("");
-      setRating(0);
-    } catch (err) {
-      console.error("❌ Error submitting feedback:", err);
-      alert("Something went wrong.");
-    }
+    // handle submit logic here
+    alert("Feedback submitted! Thank you.");
   };
 
   return (
@@ -60,8 +41,6 @@ const FeedBack = () => {
               </label>
               <input
                 type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
                 placeholder="Enter your name"
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
                 required
@@ -74,8 +53,6 @@ const FeedBack = () => {
               </label>
               <input
                 type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
                 required
@@ -87,8 +64,6 @@ const FeedBack = () => {
                 Your Experience
               </label>
               <textarea
-                value={experience}
-                onChange={(e) => setExperience(e.target.value)}
                 placeholder="Write about your experience..."
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg h-32 resize-none focus:outline-none focus:ring-2 focus:ring-blue-300"
                 required

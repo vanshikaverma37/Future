@@ -357,8 +357,11 @@ const Commerece = () => {
           🏷️ Top Career Options After Commerce
         </h1>
         <div className="career mt-[6rem] ml-[5rem] mr-[60px] flex justify-between align-middle gap-[10rem]  flex-wrap">
-          <div className="career1 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career1 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             <h2 className="text-center text-[20px] mt-[24px]">
               📊 Professional Courses:
             </h2>
@@ -379,8 +382,11 @@ const Commerece = () => {
               </li>
             </ul>
           </div>
-          <div className="career2 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career2 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             {" "}
             <h2 className="text-center text-[20px]  mt-[24px]">
               🎓 Undergraduate Courses:
@@ -402,8 +408,11 @@ const Commerece = () => {
               </li>
             </ul>
           </div>
-          <div className="career3 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career3 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             {" "}
             <h2 className="text-center text-[20px]  mt-[24px]">
               💼 Management & Business:
@@ -424,8 +433,11 @@ const Commerece = () => {
               </li>
             </ul>
           </div>
-          <div className="career4 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career4 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             {" "}
             <h2 className="text-center text-[20px]  mt-[24px]">
               🏦 Finance & Banking Sector:
@@ -440,8 +452,11 @@ const Commerece = () => {
               <li className="text-[18px] ml-[19px]"> Financial Analyst</li>
             </ul>
           </div>
-          <div className="career5 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career5 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             {" "}
             <h2 className="text-center text-[20px]  mt-[24px]">
               ⚖️ Law & Legal Field:
@@ -454,8 +469,11 @@ const Commerece = () => {
               <li className="text-[18px] ml-[19px]">Taxation Law</li>
             </ul>
           </div>
-          <div className="career6 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career6 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             {" "}
             <h2 className="text-center text-[20px]  mt-[24px]">
               🖥️ Digital & Tech Careers:
@@ -472,8 +490,11 @@ const Commerece = () => {
               </li>
             </ul>
           </div>
-          <div className="career7 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career7 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             {" "}
             <h2 className="text-center text-[20px]  mt-[24px]">
               UX/UI Design for Business Apps
@@ -491,8 +512,11 @@ const Commerece = () => {
               </li>
             </ul>
           </div>
-          <div className="career8 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career8 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             {" "}
             <h2 className="text-center text-[20px]  mt-[24px]">
               🏢 Government Jobs:
@@ -504,8 +528,11 @@ const Commerece = () => {
               </li>
             </ul>
           </div>
-          <div className="career9 border-2 border-black rounded-2xl w-[20rem] h-[20rem]" data-aos="fade-up"
-            data-aos-duration="6000">
+          <div
+            className="career9 border-8 border-[#526E48] rounded-2xl w-[20rem] h-[20rem]"
+            data-aos="fade-up"
+            data-aos-duration="6000"
+          >
             {" "}
             <h2 className="text-center text-[20px]  mt-[24px]">
               🧑‍💼 Entrepreneurship & Startups:
